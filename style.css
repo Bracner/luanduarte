@@ -1,0 +1,92 @@
+:root{
+    --var-verde: #1ed760;
+}
+body{
+    margin: 0;
+    background-color: #131313;
+}
+
+h1{
+    font-family: Koulen;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 44%;
+    left: 42.5%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) ;
+    font-size: 90;
+    color: white;
+}
+h2{
+    font-family: Koulen;
+    margin: 0;
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) ;
+    font-size: 70;
+    color: white;
+
+}
+
+
+.language{
+    position: relative;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.language a{
+    color: white;
+    text-decoration: none;
+    font-family: Bahnschrift;
+    padding: 5;
+    font-size: 20px;
+}
+.language a:hover{
+    opacity: 70%;
+    transition: 0.2s;
+}
+.icons{
+    position: absolute;
+    top: 40%;    
+}
+.icons i{
+    color: white;
+    flex-wrap: wrap;
+    display: block;
+    padding: 9px;
+    margin-left: 10px;
+
+}
+
+
+
+@media (min-width: 0px) and (max-width: 900px) {
+    .language a{
+        display: none;
+    }
+    .icons{
+        display: none;
+    }
+    .menu{
+        display: block;
+        text-align: center;
+        
+    }
+    .menu i{
+        display: inline;
+        position: relative;
+        margin: auto;
+        color: white;
+        margin-top: 20px;
+        background-color: var(--var-verde);
+        padding: 20px;
+        border-radius: 50%;
+
+    }
+}
